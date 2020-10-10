@@ -6,11 +6,11 @@
 //
 
 import SwiftUI
+import presentation
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        PostView(postVM: AppDI.shared.postDependencies())
     }
 }
 
