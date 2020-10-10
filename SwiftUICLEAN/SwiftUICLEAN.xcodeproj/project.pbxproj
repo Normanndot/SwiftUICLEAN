@@ -20,6 +20,7 @@
 		811C72D325319B2A00763678 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72D225319B2A00763678 /* AppEnvironment.swift */; };
 		811C72D725319B6700763678 /* AppDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72D625319B6700763678 /* AppDI.swift */; };
 		811C72D925319B7200763678 /* PostDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72D825319B7200763678 /* PostDI.swift */; };
+		811C72DF2531AFDB00763678 /* PostDetailsDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72DE2531AFDB00763678 /* PostDetailsDI.swift */; };
 		E1522819BC7E2F952B91FDA7 /* Pods_SwiftUICLEAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AA753B70F553E3EDC8878F /* Pods_SwiftUICLEAN.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		811C72D225319B2A00763678 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		811C72D625319B6700763678 /* AppDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDI.swift; sourceTree = "<group>"; };
 		811C72D825319B7200763678 /* PostDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDI.swift; sourceTree = "<group>"; };
+		811C72DE2531AFDB00763678 /* PostDetailsDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsDI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				811C72D625319B6700763678 /* AppDI.swift */,
 				811C72D825319B7200763678 /* PostDI.swift */,
+				811C72DE2531AFDB00763678 /* PostDetailsDI.swift */,
 			);
 			path = AppDI;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				811C72D725319B6700763678 /* AppDI.swift in Sources */,
+				811C72DF2531AFDB00763678 /* PostDetailsDI.swift in Sources */,
 				811A214725318AE800C17A43 /* ContentView.swift in Sources */,
 				811A214525318AE800C17A43 /* SwiftUICLEANApp.swift in Sources */,
 				811C72D325319B2A00763678 /* AppEnvironment.swift in Sources */,

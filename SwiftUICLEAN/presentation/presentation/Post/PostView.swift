@@ -11,8 +11,12 @@ import SwiftUI
 public struct PostView: View {
     
     @ObservedObject public var postVM: PostVM
+    var appDI: AppDIInterface
     
-    public init(postVM: PostVM) {
+    @State var detailsIsPresented: Bool = false
+    
+    public init(appDI: AppDIInterface, postVM: PostVM) {
+        self.appDI = appDI
         self.postVM = postVM
     }
     
@@ -31,11 +35,16 @@ public struct PostView: View {
                             .font(.body)
                             .multilineTextAlignment(.center)
                     }
+                }.onTapGesture {
+                    self.detailsIsPresented = true
                 }
             }
+            .sheet(isPresented: $detailsIsPresented, content: {
+                PostDetailsView(postDetailsVM: self.appDI.postDetailsDependencies())
+            })
             .navigationBarTitle("Posts")
         }
-            
+        
         .onAppear {
             self.postVM.getPosts()
         }

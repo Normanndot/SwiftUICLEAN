@@ -12,6 +12,9 @@
 		811C72A92531912500763678 /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 811C72A72531912500763678 /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		811C72C62531947E00763678 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72C52531947E00763678 /* PostView.swift */; };
 		811C72C82531948A00763678 /* PostVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72C72531948A00763678 /* PostVM.swift */; };
+		811C72DB2531AF8600763678 /* PostDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72DA2531AF8600763678 /* PostDetails.swift */; };
+		811C72DD2531AFAD00763678 /* PostDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72DC2531AFAD00763678 /* PostDetailsVM.swift */; };
+		811C72E12531B04900763678 /* AppDIInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811C72E02531B04900763678 /* AppDIInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,9 @@
 		811C72A72531912500763678 /* domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		811C72C52531947E00763678 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		811C72C72531948A00763678 /* PostVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVM.swift; sourceTree = "<group>"; };
+		811C72DA2531AF8600763678 /* PostDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetails.swift; sourceTree = "<group>"; };
+		811C72DC2531AFAD00763678 /* PostDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsVM.swift; sourceTree = "<group>"; };
+		811C72E02531B04900763678 /* AppDIInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 			children = (
 				811C72C52531947E00763678 /* PostView.swift */,
 				811C72C72531948A00763678 /* PostVM.swift */,
+				811C72DA2531AF8600763678 /* PostDetails.swift */,
+				811C72DC2531AFAD00763678 /* PostDetailsVM.swift */,
+				811C72E02531B04900763678 /* AppDIInterface.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -175,8 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811C72DB2531AF8600763678 /* PostDetails.swift in Sources */,
+				811C72DD2531AFAD00763678 /* PostDetailsVM.swift in Sources */,
 				811C72C82531948A00763678 /* PostVM.swift in Sources */,
 				811C72C62531947E00763678 /* PostView.swift in Sources */,
+				811C72E12531B04900763678 /* AppDIInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

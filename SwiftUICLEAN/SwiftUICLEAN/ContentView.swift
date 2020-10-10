@@ -10,7 +10,7 @@ import presentation
 
 struct ContentView: View {
     var body: some View {
-        PostView(postVM: AppDI.shared.postDependencies())
+        PostView(appDI: AppDI.shared, postVM: AppDI.shared.postDependencies())
     }
 }
 
